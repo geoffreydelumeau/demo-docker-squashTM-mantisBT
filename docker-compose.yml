@@ -40,7 +40,7 @@ services:
     # Image Docker: squashtest/squash-tm
     # Cette image contient Squash TM avec toutes ses dépendances
     # Les tags de version correspondent aux releases officielles
-    image: squashtest/squash-tm:8.1.3
+    image: squashtest/squash:latest
     container_name: squash-tm
     
     # Numéro de conteneur (aidé à identifier rapidement le service)
@@ -199,7 +199,7 @@ services:
   mariadb-squash:
     # Version LTS de MariaDB (Long Term Support)
     # 11.4 offre la meilleure compatibilité et stabilité
-    image: mariadb:11.4-jammy
+    image: mariadb:10.11
     container_name: mariadb-squash
     
     # Important: Ne pas exposer le port MariaDB sur votre machine
@@ -274,7 +274,7 @@ services:
   # ║  (Voir notes au-dessus)                                                    ║
   # ╚════════════════════════════════════════════════════════════════════════════╝
   mariadb-mantis:
-    image: mariadb:11.4-jammy
+    image: mariadb:10.11
     container_name: mariadb-mantis
     
     environment:
