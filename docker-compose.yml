@@ -63,6 +63,8 @@ services:
       SQTM_DB_USERNAME: squash_user           # Utilisateur pour se connecter
       SQTM_DB_PASSWORD: squash_password   # Mot de passe (À CHANGER EN PRODUCTION!)
       SQTM_DB_TYPE: mariadb
+      SQTM_DB_ADMIN_LOGIN: root
+      SQTM_DB_ADMIN_PASSWORD: root  # Doit correspondre à MARIADB_ROOT_PASSWORD
       
       # Configuration du serveur Squash
       SQUASHTM_PORT: 8080                  # Port d'écoute du service web
