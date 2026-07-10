@@ -210,10 +210,10 @@ services:
     # Configuration de MariaDB
     environment:
       # Variables MySQL standard pour initialisation
-      MYSQL_DATABASE: squashdb
-      MYSQL_USER: squash_user
-      MYSQL_PASSWORD: squash_password
-      MYSQL_ROOT_PASSWORD: root
+      MARIADB_DATABASE: squashdb
+      MARIADB_USER: squash_user
+      MARIADB_PASSWORD: squash_password
+      MARIADB_ROOT_PASSWORD: root
       
       # Encodage UTF-8 pour les caractères spéciaux (français, accents)
       MYSQL_INITDB_SKIP_TZINFO: 'yes'
@@ -279,11 +279,11 @@ services:
     container_name: mariadb-mantis
     
     environment:
-      MYSQL_DATABASE: bugtracker
-      MYSQL_USER: mantisbt
-      MYSQL_PASSWORD: mantisbt
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_INITDB_SKIP_TZINFO: 'yes'
+      MARIADB_DATABASE: bugtracker
+      MARIADB_USER: mantisbt
+      MARIADB_PASSWORD: mantisbt
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_INITDB_SKIP_TZINFO: 'yes'
       TZ: Europe/Paris
     
     # Optimisations identiques à Squash TM
