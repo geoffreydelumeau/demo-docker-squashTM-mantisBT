@@ -246,14 +246,14 @@ Attendez **60-90 secondes** après le démarrage (les bases s'initialisent).
 #### Squash TM
 - **URL**: http://localhost:8080/squash
 - **IMPORTANT**: Lors de votre première connexion vous allez devoir paramétrer Squash pour qu'il puisse communiquer avec sa base de donnée MariaDB. Indiquez les valeurs suivantes dans les champs :
--- Hostname (for Database Server) : mariadb-mantis
--- Username (for Database) : mantisbt
--- Password (for Database) : mantisbt
--- Database name (for Database) : bugtracker
--- Admin username (to create database if required): root
--- Admin password (to create database if required) : root
--- Puis cliquez sur le bouton "Install/Upgrade database"
--- Sur la nouvelle page, tout en bas, cliquez sur "Continue" pour accéder à la page de login. Utilisez les identifiants suivant :
+  - Hostname (for Database Server) : mariadb-mantis
+  - Username (for Database) : mantisbt
+  - Password (for Database) : mantisbt
+  - Database name (for Database) : bugtracker
+  - Admin username (to create database if required): root
+  - Admin password (to create database if required) : root
+  - Puis cliquez sur le bouton "Install/Upgrade database"
+  - Sur la nouvelle page, tout en bas, cliquez sur "Continue" pour accéder à la page de login. Utilisez les identifiants suivant :
 - **Identifiant**: `admin`
 - **Mot de passe**: `admin`
 - **IMPORTANT**: Changez ce mot de passe immédiatement! (Paramètres → Mon Compte)
