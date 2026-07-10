@@ -59,7 +59,7 @@ services:
       # - Les exigences, cas de test, campagnes
       # - Les résultats d'exécution
       # - Les utilisateurs et leurs droits d'accès
-      SQTM__DB_HOST: mariadb-squash        # Nom du service MariaDB (DNS interne Docker)
+      SQTM_DB_HOST: mariadb-squash        # Nom du service MariaDB (DNS interne Docker)
       SQTM_DB_PORT: 3306                  # Port standard MySQL/MariaDB
       SQTM_DB_NAME: squashdb              # Nom de la base de données
       SQTM_DB_USER: squash_user           # Utilisateur pour se connecter
