@@ -58,7 +58,7 @@ docker-compose logs -f
 
 **Squash TM**:
 ```
-URL: http://localhost:8080
+URL: http://localhost:8080/squash
 Login: admin
 Pass: admin
 ```
@@ -76,7 +76,7 @@ Pass: root
 
 ### En 30 Secondes: Créer une Exigence
 
-1. Allez sur http://localhost:8080
+1. Allez sur http://localhost:8080/squash
 2. Menu **Exigences** → **Nouveau Dossier** → `Mon Projet`
 3. Clic-droit → **Créer une Exigence**
 4. Remplissez:
