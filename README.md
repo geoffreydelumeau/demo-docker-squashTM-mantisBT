@@ -32,7 +32,7 @@ docker-compose up -d
 # 3. Patientez 60 secondes (les bases de données s'initialisent)
 
 # 4. C'est fini! Accédez aux applications:
-#    - Squash TM:    http://localhost:8080
+#    - Squash TM:    http://localhost:8080/squash
 #    - Mantis BT:    http://localhost:8989
 ```
 
@@ -191,8 +191,8 @@ docker-compose --version
 
 **Option A: Avec Git** (recommandé)
 ```bash
-git clone https://github.com/votre-compte/testlab.git
-cd testlab
+git clone https://github.com/geoffreydelumeau/demo-docker-squashTM-mantisBT
+cd demo-docker-squashTM-mantisBT
 ```
 
 **Option B: Sans Git**
