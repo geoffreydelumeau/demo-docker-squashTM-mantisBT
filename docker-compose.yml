@@ -62,8 +62,8 @@ services:
       SQTM_DB_NAME: squashdb              # Nom de la base de données
       SQTM_DB_USER: squash_user           # Utilisateur pour se connecter
       SQTM_DB_PASSWORD: squash_password   # Mot de passe (À CHANGER EN PRODUCTION!)
-      SQTM_DB_ADMIN_LOGIN: root           # Admin MySQL pour la création DB
-      SQTM_DB_ADMIN_PASSWORD: root        # (À CHANGER EN PRODUCTION!)
+      SQTM_DB_ADMIN_LOGIN: squash_user           # Admin MySQL pour la création DB
+      SQTM_DB_ADMIN_PASSWORD: squash_password        # (À CHANGER EN PRODUCTION!)
       SQTM_DB_TYPE: mariadb
       
       # Configuration du serveur Squash
