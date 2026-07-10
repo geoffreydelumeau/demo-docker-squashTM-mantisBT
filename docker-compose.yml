@@ -214,7 +214,7 @@ services:
       MARIADB_ROOT_PASSWORD: root
       
       # Encodage UTF-8 pour les caractères spéciaux (français, accents)
-      MYSQL_INITDB_SKIP_TZINFO: 'yes'
+      MARIADB_INITDB_SKIP_TZINFO: 'yes'
       
       TZ: Europe/Paris
     
