@@ -212,6 +212,7 @@ services:
       MARIADB_USER: squash_user
       MARIADB_PASSWORD: squash_password
       MARIADB_ROOT_PASSWORD: root
+      MARIADB_ROOT_PASSWORD: root
       
       # Encodage UTF-8 pour les caractères spéciaux (français, accents)
       MARIADB_INITDB_SKIP_TZINFO: 'yes'
