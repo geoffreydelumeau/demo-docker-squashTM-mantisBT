@@ -24,7 +24,7 @@ services:
   # ╔════════════════════════════════════════════════════════════════════════════╗
   # ║  🎯 SQUASH TM - Gestion des Tests (Test Management)                        ║
   # ║                                                                            ║
-  # ║  Port d'accès: http://localhost:8080                                      ║
+  # ║  Port d'accès: http://localhost:8080/squash                                      ║
   # ║  Login par défaut: admin / admin                                          ║
   # ║                                                                            ║
   # ║  Squash TM est la pierre angulaire de votre activité de testeur:           ║
@@ -46,7 +46,7 @@ services:
     
     # Ports exposés: [PORT_LOCAL]:[PORT_CONTENEUR]
     # 8080 sur votre machine → 8080 dans le conteneur
-    # Accessible via http://localhost:8080
+    # Accessible via http://localhost:8080/squash
     ports:
       - "8080:8080"
     

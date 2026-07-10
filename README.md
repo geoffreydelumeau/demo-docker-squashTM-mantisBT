@@ -244,7 +244,7 @@ docker-compose logs -f
 Attendez **60-90 secondes** après le démarrage (les bases s'initialisent).
 
 #### Squash TM
-- **URL**: http://localhost:8080
+- **URL**: http://localhost:8080/squash
 - **Identifiant**: `admin`
 - **Mot de passe**: `admin`
 - **IMPORTANT**: Changez ce mot de passe immédiatement! (Paramètres → Mon Compte)

@@ -154,7 +154,7 @@ demo-docker-squashTM-mantisTB/
    ↓
 2. Lancez init-project.sh ou .bat
    ↓
-3. Vérifiez http://localhost:8080 et 8989
+3. Vérifiez http://localhost:8080/squash et http://localhost:8989
    ↓
 4. Changez les mots de passe par défaut
    ↓
